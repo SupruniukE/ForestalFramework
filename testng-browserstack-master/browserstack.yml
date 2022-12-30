@@ -1,0 +1,9 @@
+userName: evgenysuprunyuk_8bqFK7
+accessKey: xGve9rvbAhmjS9sVnQYi
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: 103.0
+parallelsPerPlatform: 3

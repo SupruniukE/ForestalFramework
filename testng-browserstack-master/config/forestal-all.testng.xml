@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross-Platform" parallel="tests" thread-count="5">
+    <test name="ForestalOpenHydraPageTest">
+        <classes>
+            <class name="test.ForestalAddToBagTest" />
+            <class name="test.ForestalCompareCyonBikesTest" />
+            <class name="test.ForestalContactSupportTest" />
+            <class name="test.ForestalOpenHydraPageTest" />
+            <class name="test.ForestalOpenNewsPageTest" />
+            <class name="test.ForestalRegistrationTest" />
+            <class name="test.ForestalReturnToMainPageTest" />
+            <class name="test.ForestalSendCVTest" />
+            <class name="test.ForestalSubscribeToNewsletterTest" />
+            <class name="test.ForestalViewAryonInterfaceTest" />
+        </classes>
+    </test>
+</suite>
